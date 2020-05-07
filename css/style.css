@@ -134,56 +134,49 @@
 .sponsor h5 {
   color: #002966;
 }
-.docker {
-  width: 200px;
-  height: 150px;
-  margin-top: 30px;
-  margin-left: -25px;
+.sponsor li {
+  display: inline-block;
+  width: 185px;
 }
-.docker img {
-  width: 50%;
-  height: 60%;
+.sponsor img {
+  width: 70%;
 }
-.gitlab {
-  width: 200px;
-  height: 150px;
-  margin-top: 30px;
-  margin-left: -25px;
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .sponsor li {
+    display: inline-block;
+    width: 150px;
+  }
+  .sponsor img {
+    width: 70%;
+  }
 }
-.gitlab img {
-  width: 50%;
-  height: 60%;
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .sponsor li {
+    display: inline-block;
+    width: 100px;
+  }
+  .sponsor img {
+    width: 80%;
+  }
 }
-.slack {
-  width: 200px;
-  height: 150px;
-  margin-top: 30px;
-  margin-left: -25px;
+@media screen and (max-width: 769px){
+  .sponsor li {
+    display: inline-block;
+    width: 250px;
+  }
+  .sponsor img {
+    width: 80%;
+  }
 }
-.slack img {
-  width: 50%;
-  height: 60%;
-}
-.hashi {
-  width: 200px;
-  height: 150px;
-  margin-top: 30px;
-  margin-left: -25px;
-}
-.hashi img {
-  width: 50%;
-  height: 60%;
-}
-.splunk {
-  width: 200px;
-  height: 150px;
-  margin-top: 30px;
-}
-.splunk img {
-  margin-top: 28px;
-  width: 50%;
-  height: 25%;
-  margin-left: -55px;
+@media screen and (min-width: 384px) and (max-width: 546px) {
+  .sponsor li {
+    display: inline-block;
+    width: 170px;
+  }
+  .sponsor img {
+    width: 80%;
+  }
 }
 .sponsor h4 {
   color: #00ace6;
@@ -458,7 +451,6 @@
   .create h5 {
     font-size: 15px;
   }
-
 }
 
 
