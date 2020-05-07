@@ -1,4 +1,7 @@
 /*inizio nav*/
+.navbar {
+  background-color: white;
+}
 .menu-nav li {
   margin-top: 30px;
   color: #002966;
@@ -62,7 +65,7 @@
 .entry {
   background-image: url(../img/bg-home-1-d54581d7.jpg);
   background-size: cover;
-  margin-top: 5px;
+  margin-top: 44px;
 }
 .testo-entry {
   margin-top: 50px;
@@ -80,6 +83,7 @@
   margin-top: 40px;
   margin-bottom: 20px;
   float: left;
+  border-radius: 6px;
 }
 .login-entry h3,
 .login-entry h4 {
@@ -121,3 +125,138 @@
 }
 /*fine entry*/
 /*inizio sponsor*/
+.sponsor {
+  background-color: #e6e6e6;
+  text-align: center;
+  margin-top: -10px;
+}
+.sponsor h5 {
+  color: #002966;
+}
+.docker {
+  width: 200px;
+  height: 150px;
+  margin-top: 30px;
+  margin-left: -25px;
+}
+.docker img {
+  width: 50%;
+  height: 60%;
+}
+.gitlab {
+  width: 200px;
+  height: 150px;
+  margin-top: 30px;
+  margin-left: -25px;
+}
+.gitlab img {
+  width: 50%;
+  height: 60%;
+}
+.slack {
+  width: 200px;
+  height: 150px;
+  margin-top: 30px;
+  margin-left: -25px;
+}
+.slack img {
+  width: 50%;
+  height: 60%;
+}
+.hashi {
+  width: 200px;
+  height: 150px;
+  margin-top: 30px;
+  margin-left: -25px;
+}
+.hashi img {
+  width: 50%;
+  height: 60%;
+}
+.splunk {
+  width: 200px;
+  height: 150px;
+  margin-top: 30px;
+}
+.splunk img {
+  margin-top: 28px;
+  width: 50%;
+  height: 25%;
+  margin-left: -55px;
+}
+.sponsor h4 {
+  color: #00ace6;
+}
+/*deploy*/
+.deploy {
+  background-color: white;
+}
+.deploy h2,
+.deploy p {
+  text-align: center;
+}
+.deploy h2,
+.deploy h3 {
+  color: #002966;
+}
+.deploy p {
+  color: #a6a6a6;
+}
+.menu-dep ul {
+  border-left: 2px solid #a6a6a6;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.menu-dep li {
+  list-style-type: none;
+  margin-left: -20px;
+  margin-top: 15px;
+  color: #a6a6a6;
+}
+.cluster {
+  margin-top: 20px;
+}
+.cluster p {
+  text-align: left;
+}
+.optimized {
+  margin-top: 20px;
+}
+.optimized p {
+  text-align: left;
+}
+.one-click {
+  margin-top: 30px;
+}
+.one-click p {
+  text-align: left;
+}
+.global {
+  margin-top: -140px;
+}
+.global p {
+  text-align: left;
+}
+@media screen and (max-width: 768px) {
+ .global {
+   margin-top: 20px;
+ }
+}
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .global {
+    margin-top: 20px;
+  }
+}
+/*inizio developers*/
+.developers {
+  background-color: red;
+  height: 300px;
+}
+.developers h2 {
+  text-align: center;
+  color: #002966;
+}
+.developers p {
+  text-align: center;
+}
