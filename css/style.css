@@ -252,7 +252,6 @@
 /*inizio developers*/
 .developers {
   background-color: #e6f2ff;
-  height: 630px;
 }
 .developers h2 {
   text-align: center;
@@ -265,14 +264,12 @@
   list-style-type: none;
 }
 .freccia-destra {
-  height: 400px;
   margin-top: 10px;
 }
 .freccia-destra i {
   text-align: right;
 }
 .freccia-sinistra {
-  height: 400px;
   margin-top: 10px;
 }
 .freccia-sinistra li {
@@ -282,12 +279,8 @@
 .freccia-destra i {
   margin-top: 200px;
 }
-.img-dev {
-  height: 400px;
-}
 .img-dev img {
   width: 100%;
-  height: 100%;
   margin-top: 10px;
 }
 .img-dev h5 {
@@ -304,7 +297,7 @@
 }
 /*inizio features*/
 .features {
-  height: 300px;
+
 }
 .features h2 {
   padding-top: 20px;
@@ -325,8 +318,7 @@
 }
 /*inizio regions*/
 .regions {
-  height: 500px;
-  background-color: red;
+  background-color:  #002966;
 }
 .regions h2 {
   text-align: center;
@@ -334,6 +326,142 @@
   padding-top: 50px;
 }
 .table-1 {
-  height: 300px;
-  background-color: yellow;
+  margin-bottom: 30px;
 }
+.table-1 li {
+  display: inline-block;
+  padding-top: 10px;
+  color: white;
+}
+.table-1 p {
+  text-align: center;
+  margin-left: 70px;
+}
+.table-1 a {
+  color: #66e0ff;
+  margin-right: 0px;
+}
+.speed {
+  float: left;
+  width: 30%;
+  line-height: 55px;
+  text-align: right;
+}
+.t1-1 {
+  border-bottom: 2px solid grey;
+  width: 100%;
+  float: left;
+}
+.testo {
+  width: 70%;
+  float: left;
+}
+.t1-2 {
+  border-bottom: 2px solid grey;
+  width: 100%;
+  float: left;
+}
+.t1-3 {
+  border-bottom: 2px solid grey;
+  width: 100%;
+  float: left;
+}
+.t1-4 {
+  border-bottom: 2px solid grey;
+  width: 100%;
+  float: left;
+}
+.t1-5 {
+  border-bottom: 2px solid grey;
+  width: 100%;
+  float: left;
+}
+.t1-6 {
+  width: 100%;
+  float: left;
+}
+/*inizio team*/
+.team {
+  background-color: #e6f2ff;
+}
+.team h2 {
+  text-align: center;
+  color: #002966;
+}
+.team p {
+  text-align: center;
+}
+.team li {
+  list-style-type: none;
+}
+.img-team {
+  background-color: white;
+  margin-top: 15px;
+}
+.img-team img {
+  margin-top: 30px;
+  width: 60%;
+  margin-left: 110px;
+}
+.img-team h5 {
+  font-size: 19px;
+  text-align: center;
+  color: #999999;
+}
+.story {
+  text-align: center;
+}
+
+.freccia-sinistra-team li {
+  text-align: right;
+  margin-top: 110px;
+}
+.freccia-destra-team i {
+  margin-top: 110px;
+}
+.pallini ul {
+  margin-right: 40px;
+  text-align: center;
+}
+.pallini li {
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #002966;
+}
+/*inizio start*/
+.start {
+  background-color: #002966;
+  margin-top: -15px;
+}
+.start h2 {
+  color: white;
+  text-align: center;
+}
+.create {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 6px;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.create h5 {
+  color: #002966;
+  text-align: center;
+  vertical-align: middle;
+  padding-bottom: 3px;
+  font-size: 20px;
+}
+@media screen and (max-width: 991px) {
+  .create h5 {
+    font-size: 15px;
+  }
+
+}
+
+
+
+
+ù
